@@ -12,7 +12,7 @@ const PINATA_API = 'https://api.pinata.cloud';
 const PINATA_GATEWAY = 'https://gateway.pinata.cloud/ipfs';
 
 if (!PINATA_JWT) {
-  console.warn('⚠️ VITE_PINATA_JWT is not set');
+  console.log(' VITE_PINATA_JWT is not set');
 }
 
 export interface PinataUploadResponse {

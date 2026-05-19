@@ -10,7 +10,7 @@ async function main() {
   const address = await fileStorage.getAddress();
 
   console.log("");
-  console.log("✅ FileStorage deployed to:", address);
+  console.log(" FileStorage deployed to:", address);
   console.log("");
   console.log("Save this address — you'll need it in the frontend .env");
   console.log("");
@@ -19,7 +19,7 @@ async function main() {
 main()
   .then(() => process.exit(0))
   .catch((error) => {
-    console.error("❌ Deployment failed:");
+    console.error(" Deployment failed:");
     console.error(error);
     process.exit(1);
   });
