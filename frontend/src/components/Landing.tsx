@@ -17,7 +17,7 @@ export default function Landing({ onConnect, isConnecting }: LandingProps) {
             <span className="text-xl font-bold tracking-tight">Vault3</span>
           </div>
           <a
-            href="https://github.com"
+            href="https://github.com/viperking21980/vault3"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-zinc-500 hover:text-zinc-900 transition-colors font-medium"
